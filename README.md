@@ -23,6 +23,14 @@ docker/       browser-extensions.Dockerfile (CI pipeline)
 
 AI-assisted features (e.g., a chat helper in a web app) are exploratory. The per-browser adapters/builds are tracked as issues.
 
+## Setup
+
+```bash
+git submodule update --init --recursive   # shared assets (kapetim/ui-assets → src/assets/)
+```
+
+Icons and other static assets come from [`kapetim/ui-assets`](https://github.com/kapetim/ui-assets), mounted at `src/assets/`.
+
 ## Current extensions
 
 | Extension | Status |
